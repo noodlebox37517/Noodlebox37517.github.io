@@ -108,7 +108,7 @@ border-radius: 10px;
     list-style-type: none;
 }
 .Body-Content-Tab_Window{
-	background-color: #f1f1f1;
+	background-color: black;
 	height:640px;
 	margin:4px;
 }

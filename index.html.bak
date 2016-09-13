@@ -7,6 +7,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
 	
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>	
+	<script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 		<script> 
 		    $(function(){
 		      $(".Main-Header-placer").load("Header.html"); 
@@ -21,9 +22,9 @@
 		<div class='Body-Content-Tab_Menu'>
 			<ul>
 				<li><button id='Tab_What' type='button' onclick=''>What I do</button></li>
-				<li><a>Sites(dropdown)</a></li>
-				<li><a>Other Projects</a></li>
-				<li><a>About me</a></li>
+				<li><button id='Tab_How' type='button' onclick=''>What I do</button></li>
+				<li><button id='Tab_Price' type='button' onclick=''>What I do</button></li>
+				<li><button id='Tab_Contact' type='button' onclick=''>What I do</button></li>
 			</ul>
 		</div>
 		<div class='Body-Content-Tab_Window'>

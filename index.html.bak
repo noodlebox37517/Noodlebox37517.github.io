@@ -6,29 +6,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
 	
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>	
-	<script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 		<script> 
 		    $(function(){
 		      $(".Main-Header-placer").load("Header.html"); 
+			  $(hidedivs(toHide));
 		    });
+			
 		</script>
+		<!-- scripts to show and hide divs through ids -->
+		<script> 
+		var toHide=["#Tab_Wrap"];
+		
+	function hidedivs(toHide){
+		for (i = 0; i < toHide.length; i++) {
+			$(toHide[i] + " > div").css( "display", "none" );		
+			}
+	};
+		
+	function selectShowOne(tab,show){
+		$(tab + " > div").css( "display", "none" );
+		$(show).css( "display", "block" );
+	};
+		function selectShow(tab,tabtwo,show,showtwo){
+		$(tab + " > div").css( "display", "none" );
+		$(tabtwo + " > div").css( "display", "none" );
+		$(show).css( "display", "block" );
+		$(showtwo).css( "display", "block" );
+		
+	};
+		</script>
+	<style>
+	</style>
   </head>
   
   <body>
 <div class='Main-Header-placer'></div>
 <div class='Body-Content'>
+	<div class='Short_Descritption'>
+		<h1>
+		Freelance Webdeveloper
+		</h1>
+		<p>	
+		Hello, I am Thomas a Freelance web developer and Recent QUT Graduate. Designing and building software experiences is my passion and I always endeavour to get my clients the best possible outcome for their needs. If you are intrigued by if I may be of service feel free to <b>get in touch</b>.
+		</p>
+	</div>
 	<div class='Body-Content-Tabviewer'>
 		<div class='Body-Content-Tab_Menu'>
 			<ul>
-				<li><button id='Tab_What' type='button' onclick=''>What I do</button></li>
-				<li><button id='Tab_How' type='button' onclick=''>What I do</button></li>
-				<li><button id='Tab_Price' type='button' onclick=''>What I do</button></li>
-				<li><button id='Tab_Contact' type='button' onclick=''>What I do</button></li>
+				<li><button id='Tab_What' type='button' onclick="selectShow('#Tab_Wrap','#WhatInfo')">What I do</button></li>
+				<li><button id='Tab_How' type='button' onclick="selectShowOne('#Tab_Wrap','#What_Info2')">How i work</button></li>
+<!-- 				<li><button id='Tab_Price' type='button' onclick="selectShow('#Tab_Wrap','#What_Info2')">What I do3</button></li>
+				<li><button id='Tab_Contact' type='button' onclick="selectShow('#Tab_Wrap','#What_Info2')">What I do4</button></li> -->
 			</ul>
 		</div>
-		<div class='Body-Content-Tab_Window'>
-		
+		<div class='Body-Content-Tab_Window' id='Tab_Wrap'>
+		<!-- tabs, only one shown at a time -->
+			<div class='sub_tab' id="WhatInfo">
+			<h1>What I can do for you</h1>
+			<ul>
+				<li><div class = 'divlist1'>
+				<h2>Alterations and Updates</h2>
+				<p>Small and Large changes to existing webpages, fixing usability issues,solving bugs or simply cleaning up</p>
+				</div></li>
+				<li><div class = 'divlist1'>
+				<h2>Full builds</h2>
+				<p>From initial discussions about how to get the best solution right throught to implementation and maintence.</p>
+				</div></li>
+				<li><div class = 'divlist1'>
+				<h2>Consultations</h2>
+				<p>Need help with online solutions for business or personal use, then a consultation about your options could be exactly what you need.</p>
+				</div></li>
+			</ul>
+
+			</div>
+			<div class='sub_tab' id='What_Info2'>
+			<h1>My Process</h1>
+			<ul>
+				<li><div class = 'divlist1'>
+				<h2>Design</h2>
+				<p>Small and Large changes to existing webpages, fixing usability issues,solving bugs or simply cleaning up</p>
+				</div></li>
+				<li><div class = 'divlist1'>
+				<h2>Implementation</h2>
+				<p>From initial discussions about how to get the best solution right throught to implementation and maintence.</p>
+				</div></li>
+				<li><div class = 'divlist1'>
+				<h2>Matinence</h2>
+				<p>Need help with online solutions for business or personal use, then a consultation about your options could be exactly what you need.</p>
+				</div></li>
+			</ul>
+			</div>
+			<div class='sub_tab' id='What_Info3'>
+			hello players
+			</div>
 		</div>
 	</div>
 </div>

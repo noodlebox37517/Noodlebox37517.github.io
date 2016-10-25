@@ -2,11 +2,12 @@
 	<div class='Main-header-nav'>
 		<ul>
 			<li><a href='index.html'> Home</a></li>
-			<li><a>Sites(dropdown)</a></li>
+			<li><a href='Projects.html'>Sites(dropdown)</a></li>
 			<li><a>Other Projects</a></li>
 			<li><a>About me</a></li>
 		</ul>
 	</div>
 	<div class='direct-contact-link-spacer'>
+		<a>Contact Now</a>
 	</div>
 </div>

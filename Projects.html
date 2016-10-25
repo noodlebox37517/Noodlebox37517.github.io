@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Noodlebox37517.GitHub.io by noodlebox37517</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+	
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+		<script> 
+		    $(function(){
+		      $(".Main-Header-placer").load("Header.html"); 
+			  $(hidedivs(toHide));
+		    });
+			
+		</script>
+		<!-- scripts to show and hide divs through ids -->
+		<script> 
+		var toHide=["#Tab_Wrap"];
+		
+	function hidedivs(toHide){
+		for (i = 0; i < toHide.length; i++) {
+			$(toHide[i] + " > div").css( "display", "none" );		
+			}
+	};
+		
+	function selectShowOne(tab,show){
+		$(tab + " > div").css( "display", "none" );
+		$(show).css( "display", "block" );
+	};
+		function selectShow(tab,tabtwo,show,showtwo){
+		$(tab + " > div").css( "display", "none" );
+		$(tabtwo + " > div").css( "display", "none" );
+		$(show).css( "display", "block" );
+		$(showtwo).css( "display", "block" );
+		
+	};
+		</script>
+	<style>
+	.Body-Content-Tab_Window li, p{
+	display:inline;
+	}
+	.Body-Content-Tab_Window h3{
+	margin:1%;
+	}
+	.Body-Content-Tab_Window input[type="button"]{
+	display:none;
+	}
+	</style>
+  </head>
+  
+  <body>
+<div class='Main-Header-placer'></div>
+<div class='Body-Content'>
+	<div class='Short_Descritption'>
+		<h1>
+		Projects
+		</h1>
+		<p>	
+		Here you can find projects i have worked on, both past and ongoing.
+		</p>
+	</div>
+	<div class='Body-Content-Tabviewer'>
+		<div class='Body-Content-Tab_Window' id='Tab_Wrap'>
+			<ul>
+				<li>
+					<div>
+					<h3>DND TOOLS</h3>
+					<a href='http://arthurs.github.io/#home'>
+						<img src="IMGS/personal_web.PNG">
+					</a>
+					<input type='button' value='+'></input>
+					<p>This website is a personal project between myself and freind, we are seeking to create online utility for RPGs.</p>
+					</div>
+				</li>
+				<li>
+					<div>
+					<h3>HTML Terms of service</h3>
+					<a href='TOS.html'>
+						<img src="IMGS/personal_web.PNG">
+					</a>
+					<input type='button' value='+'></input>
+					<p>This is a very small project I did for a TOS agreement.</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class='Footer-Content'> insert footer</div>
+  
+  </body>
+</html>

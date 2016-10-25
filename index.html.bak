@@ -49,13 +49,13 @@
 		Freelance Webdeveloper
 		</h1>
 		<p>	
-		Hello, I am Thomas a Freelance web developer and Recent QUT Graduate. Designing and building software experiences is my passion and I always endeavour to get my clients the best possible outcome for their needs. If you are intrigued by if I may be of service feel free to <b>get in touch</b>.
+		Hello, I am Thomas a Freelance web developer and Recent QUT Graduate. Designing and building software experiences is my passion and I always endeavour to get my clients the best possible outcome for their needs. If you are intrigued by if I may be of service feel free to <a href='index.html'>Get in Touch</a>.
 		</p>
 	</div>
 	<div class='Body-Content-Tabviewer'>
 		<div class='Body-Content-Tab_Menu'>
 			<ul>
-				<li><button id='Tab_What' type='button' onclick="selectShow('#Tab_Wrap','#WhatInfo')">What I do</button></li>
+				<li><button id='Tab_What' type='button' onclick="selectShowOne('#Tab_Wrap','#WhatInfo')">What I do</button></li>
 				<li><button id='Tab_How' type='button' onclick="selectShowOne('#Tab_Wrap','#What_Info2')">How i work</button></li>
 <!-- 				<li><button id='Tab_Price' type='button' onclick="selectShow('#Tab_Wrap','#What_Info2')">What I do3</button></li>
 				<li><button id='Tab_Contact' type='button' onclick="selectShow('#Tab_Wrap','#What_Info2')">What I do4</button></li> -->

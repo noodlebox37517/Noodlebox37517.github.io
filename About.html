@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Noodlebox37517.GitHub.io by noodlebox37517</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+	
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+		<script> 
+		    $(function(){
+		      $(".Main-Header-placer").load("Header.html"); 
+		    });
+			
+		</script>
+		<!-- scripts to show and hide divs through ids -->
+		<script> 
+		var toHide=["#Tab_Wrap"];
+		
+	function hidedivs(toHide){
+		for (i = 0; i < toHide.length; i++) {
+			$(toHide[i] + " > div").css( "display", "none" );		
+			}
+	};
+		
+	function selectShowOne(tab,show){
+		$(tab + " > div").css( "display", "none" );
+		$(show).css( "display", "block" );
+	};
+		function selectShow(tab,tabtwo,show,showtwo){
+		$(tab + " > div").css( "display", "none" );
+		$(tabtwo + " > div").css( "display", "none" );
+		$(show).css( "display", "block" );
+		$(showtwo).css( "display", "block" );
+		
+	};
+		</script>
+	<style>
+	</style>
+  </head>
+  
+  <body>
+<div class='Main-Header-placer'></div>
+<div class='Body-Content'>
+	<div class='Short_Descritption'>
+		<h1>
+		About Me
+		</h1>
+		<p>	
+		Here you can find information about me.
+		</p>
+	</div>
+	<div class='Body-Content-Tabviewer'>
+		<div class='Body-Content-Tab_Window' id='Tab_Wrap'>
+			<div class='sub_tab' id="WhatInfo">
+				<ul>
+					<li>
+						<div>
+						<h3>My Education</h3>
+						<p>Cert 3 in IT, bachelor, Post Cert</p>
+						</div>
+					</li>
+					<li>
+						<div>
+						<h3>My Hobbies</h3>
+						<p>Guild master,DM dnd , gam jams</p>
+						</div>
+					</li>
+					<li>
+						<div>
+						<h3>My Goals</h3>
+						<p></p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+<div class='Footer-Content'> insert footer</div>
+  
+  </body>
+</html>

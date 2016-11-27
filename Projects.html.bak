@@ -45,7 +45,7 @@
 	margin:1%;
 	}
 	.Body-Content-Tab_Window input[type="button"]{
-	visibility:hidden;
+	display:none;
 	}
 	</style>
   </head>

@@ -2,8 +2,8 @@
 	<div class='Main-header-nav'>
 		<ul>
 			<li><a href='index.html'> Home</a></li>
-			<li><a href='Projects.html'>Sites(dropdown)</a></li>
-		<!-- 	<li><a>Other Projects</a></li> -->
+			<li><a href='Projects.html'>Sites</a></li>
+			<li><a href='Portfolio_Home.html'Other Projects</a></li>
 			<li><a href='About.html'>About me</a></li>
 		</ul>
 	</div>

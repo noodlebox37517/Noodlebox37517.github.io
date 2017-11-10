@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box; 
+  font-family: Trebuchet MS, Helvetica, sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color:#101518;
+  background-image:url("explosion.png");
+}
+h1,h2,h3{
+	color:#f5b405;
+	font-size:2em;
+}
+p{
+	font-size:1em;	
+}
+button{
+	color:white;
+	font-size:1.2em;
+	font-weight:900;
+	border-width: 1px;
+	border-color: #f5b405;
+	border-style: solid;
+	background-color: #rgb263037;
+	opacity: 1;
+	min-height:40px;
+	min-width:100px;
+	box-shadow: 0px 3px 6px 1px rgba(0, 0, 0, 0.1);
+	z-index: 2;
+}
+li{
+	list-style-type: none;
+}
+button:hover{
+	background-color: rgb(44, 131, 218);
+}
+button:active{
+	border-style: inset;
+	transform: translateY(1px);
+}
+a{
+	color:#ffcc00;
+	font-size:1.2em;
+	text-decoration:none;
+}
+a:active{
+	transform: translateY(1px);
+}
+a:visited{
+	color:#748ea8;
+}
+
+
+/*Classes*/
+
+/* fixed header*/
+.Main-Header-placer{
+	margin-top:6px;
+	width: 100%;
+    z-index: 100;
+    position: fixed;
+}
+.Main-header{
+	width: 100%;
+	height:50px;
+}
+.Main-header-nav{
+	margin:0 20% 0 20%; 
+}
+.Main-header-nav ul{
+    padding: 0px;
+    width: 100%;
+    margin: auto;
+    height: 100%;
+	padding-right: 1%;
+}
+.Main-header-nav li{
+	display: inline-block;
+    list-style-type: none;
+	border-style: solid;
+    border-width: 2px;
+    border-color: #007fff; 
+	border-radius: 10px;
+    width: 24%;
+    height: 100%;
+	margin-left:1%;
+    float: left;
+    background-color: #fff;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.18);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.18);
+	box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.18);
+}
+.Main-header-nav li a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    line-height: 175%;
+}
+.Main-header-nav li a:hover{
+background-color: #e0e0e0;
+border-radius: 10px;
+}
+/* header quick contact */
+.direct-contact-link-spacer{
+	margin-top:2%;
+	margin-right:5%;
+	margin-left:85%;
+	width:10%;
+	height:50px;
+
+}
+.direct-contact-link-spacer a{
+	text-align: center;
+	color:White;
+    text-decoration: none;
+	font-size:1.4em;
+	font-weight:900;
+    display: block;
+    vertical-align: middle;
+    width: 100%;
+    line-height: 300%;
+	background-color: #007fff;
+	border-radius: 5px;
+	border-style: solid;
+    border-width: 2px;
+    border-color: #007fff;
+	-webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+	-moz-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+}
+
+.direct-contact-link-spacer a:hover{
+	background-color: #3399ff;
+	border-radius: 4px;
+}
+
+/* Body home.html */
+
+.Body-Content{
+	padding-top:40px;
+	margin:0 20% 0 20%; 
+}
+.Short_Descritption{
+	height:160px;
+	margin:1%;
+	padding:1%;
+ border-style: solid;
+  border-width: 2px;
+  border-color: rgb(245, 180, 5);
+  background-color: rgb(30, 38, 43);
+  box-shadow: 0px 0px 11.7px 1.3px rgba(0, 0, 0, 0.004);
+	z-index: 2;
+}
+
+
+.Short_Descritption h1{
+	color:#f5b405;
+	font-family: Trebuchet MS, Helvetica, sans-serif
+}
+
+.Body-Content-Tabviewer{
+	margin:1%;
+	padding:1%;
+	background-color: #1e262b;
+	height:1000px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(245, 180, 5);
+  border-radius: 100px;
+  background-color: rgb(30, 38, 43);
+  box-shadow: 0px 0px 11.7px 1.3px rgba(0, 0, 0, 0.004);
+	z-index: 2;
+}
+
+
+
+	
+}
+
+/* tab cycler */
+.Body-Content-Tab_Menu{
+	margin:4px;
+}
+.Body-Content-Tab_Menu ul{
+    padding: 0px;
+    width: 100%;
+    margin: auto;
+
+}
+.Body-Content-Tab_Menu li{
+	display: inline-block;
+    list-style-type: none;
+}
+.Body-Content-Tab_Window{
+	height:640px;
+	margin:4px;
+}
+.sub_tab ul{
+	padding:0px;
+}
+.sub_tab li{
+	background-color: #f1f1f1;
+	padding:5px;
+	margin-left:3%;
+	margin-right:3%;
+	margin-top:2%;
+	list-style-type: none;
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(209,209,209,1);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(209,209,209,1);
+	box-shadow: 0px 0px 1px 1px rgba(209,209,209,1);
+}
+
+.divlist1{
+	margin:1%;
+
+}
+.divlist1 h2{
+	color:grey;
+}

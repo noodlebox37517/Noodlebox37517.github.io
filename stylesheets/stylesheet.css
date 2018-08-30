@@ -5,7 +5,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color:#eaeaea;
+  background-color:#224d86;
 }
 h1,h2,h3{
 	color:#0073e6;
@@ -53,25 +53,41 @@ a:visited{
 
 /*Classes*/
 
+
 /* fixed header*/
+.Personal-Panel{
+	margin:0 20% 0 20%; 
+	height:160px;
+	padding:1%;
+	background-color:#224d86;
+	
+}
+.Personal-Panel h1{
+	color:White;
+}
+.Personal-Panel h2{
+	font-size:1.4em;
+	color:White;
+}
 .Main-Header-placer{
-	margin-top:6px;
+	margin-top:50px;
 	width: 100%;
     z-index: 100;
-    position: fixed;
+  
+	background-color:#224d86;
 }
 .Main-header{
 	width: 100%;
 	height:50px;
 }
 .Main-header-nav{
-	margin:0 20% 0 20%; 
+	margin:1% 20% 1% 20%; 
 }
 .Main-header-nav ul{
     padding: 0px;
     width: 100%;
     margin: auto;
-    height: 100%;
+    height: 37.6px;
 	padding-right: 1%;
 }
 .Main-header-nav li{
@@ -137,25 +153,55 @@ border-radius: 10px;
 	border-radius: 4px;
 }
 
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 /* Body home.html */
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .Body-Content{
-	padding-top:40px;
+	padding-top:200px;
 	margin:0 20% 0 20%; 
+	display: block;
 }
 .Short_Descritption{
-	height:160px;
+	min-height:160px;
 	margin:1%;
-	padding:1%;
-	background-color: #fff;
+	padding:5% 15% 5% 15%; 
+	background-color: #f0f6ff;
 	-webkit-box-shadow: 0px 0px 1px 1px rgba(209,209,209,1);
 	-moz-box-shadow: 0px 0px 1px 1px rgba(209,209,209,1);
 	box-shadow: 0px 0px 1px 1px rgba(209,209,209,1);
 	z-index: 2;
 }
+.Short_Descritption ul li{
+	list-style-type:square;
+}
 .Short_Descritption h1{
-	color:#0073e6;
-	font-family: Trebuchet MS, Helvetica, sans-serif
+	color:black;
+	font-size: 60px;
 }
 
 .Body-Content-Tabviewer{

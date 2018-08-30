@@ -11,99 +11,164 @@
 		<script> 
 		    $(function(){
 		      $(".Main-Header-placer").load("Header.html"); 
-			  $(hidedivs(toHide));
 		    });
 			
 		</script>
 		<!-- scripts to show and hide divs through ids -->
 		<script> 
-		var toHide=["#Tab_Wrap"];
-		
-	function hidedivs(toHide){
-		for (i = 0; i < toHide.length; i++) {
-			$(toHide[i] + " > div").css( "display", "none" );		
-			}
-	};
-		
-	function selectShowOne(tab,show){
-		$(tab + " > div").css( "display", "none" );
-		$(show).css( "display", "block" );
-	};
-		function selectShow(tab,tabtwo,show,showtwo){
-		$(tab + " > div").css( "display", "none" );
-		$(tabtwo + " > div").css( "display", "none" );
-		$(show).css( "display", "block" );
-		$(showtwo).css( "display", "block" );
-		
-	};
 		</script>
 	<style>
 	</style>
   </head>
   
   <body>
-<div class='Main-Header-placer'></div>
-<div class='Body-Content'>
-	<div class='Short_Descritption'>
-		<h1>
-		Freelance Webdeveloper
-		</h1>
-		<p>	
-		Hello, I am Thomas a Freelance web developer and Recent QUT Graduate. Designing and building software experiences is my passion and I always endeavor  to get my clients the best possible outcome for their needs. If you are intrigued by if I may be of service feel free to <a href='index.html'>Get in Touch</a>.
-		</p>
-	</div>
-	<div class='Body-Content-Tabviewer'>
-		<div class='Body-Content-Tab_Menu'>
-			<ul>
-				<li><button id='Tab_What' type='button' onclick="selectShowOne('#Tab_Wrap','#WhatInfo')">What I do</button></li>
-				<li><button id='Tab_How' type='button' onclick="selectShowOne('#Tab_Wrap','#What_Info2')">How i work</button></li>
-<!-- 				<li><button id='Tab_Price' type='button' onclick="selectShow('#Tab_Wrap','#What_Info2')">What I do3</button></li>
-				<li><button id='Tab_Contact' type='button' onclick="selectShow('#Tab_Wrap','#What_Info2')">What I do4</button></li> -->
-			</ul>
-		</div>
-		<div class='Body-Content-Tab_Window' id='Tab_Wrap'>
-		<!-- tabs, only one shown at a time -->
-			<div class='sub_tab' id="WhatInfo">
-			<h1>What I can do for you</h1>
-			<ul>
-				<li><div class = 'divlist1'>
-				<h2>Alterations and Updates</h2>
-				<p>Small and Large changes to existing webpages, fixing usability issues,solving bugs or simply cleaning up</p>
-				</div></li>
-				<li><div class = 'divlist1'>
-				<h2>Full builds</h2>
-				<p>From initial discussions about how to get the best solution right throught to implementation and maintence.</p>
-				</div></li>
-				<li><div class = 'divlist1'>
-				<h2>Consultations</h2>
-				<p>Need help with online solutions for business or personal use, then a consultation about your options could be exactly what you need.</p>
-				</div></li>
-			</ul>
+	<div class='Main-Header-placer'></div>
+	<div class = "Body-Content">
+		<div class="Short_Descritption">
+			<div style="height:80px; display:inline-block;">
+				
+				</div>
+				<div style ="style= height:100%; display: inline-block;">
+				<h1>Space Miner (2018)</h1>
+			</div>
+			<div style="height:100%; display:block;text-align: left;">
+			
+				<p>
+				<a href ="https://play.google.com/store/apps/details?id=com.fleming.SpaceMiner"> Space Miner </a> is a mobile game where the aim is to mine asteroid fields using a mining claw. I solely developed the game over a period of 6 months and it is now released on Google play 
+				<br><br>
+				Project role: Sole Developer(Design,Art,Code)
+				<br>
+				<ul>
+				  <li>Unity 2018.2.0</li>
+				  <li>C#</li>
+				  <li>Photshop</li>
+				  <li> Arcade style aim and shot,using Unity's colider system to detect collisions </li>
+				  <li>Implemented: UI using Unity, UnityAds,Stats tracking, level design tools,saveload system</li>
+				</ul>  
 
 			</div>
-			<div class='sub_tab' id='What_Info2'>
-			<h1>My Process</h1>
+
+			<div class="row">
+					  <div class="column">
+						<img src="Screenshot_20180829-130948.PNG" alt="Snow" style="width:100%">
+					  </div>
+					  <div class="column">
+						<img src="Screenshot_20180829-130720.PNG" alt="Forest" style="width:100%">
+					  </div>
+					  <div class="column">
+						<img src="Screenshot_20180829-131015.PNG" alt="Mountains" style="width:100%">
+					  </div>	
+				</div>
+			</div>
+		<!-- 2nd -->
+			<div class="Short_Descritption">
+			<div style="height:80px; display:inline-block;">
+				</div>
+				<div style ="style= height:100%; display: inline-block;">
+				<h1>3D biomedical printing software (2017)</h1>
+			</div>
+			<div style="height:100%; display:block;text-align: left;">
+			<p>
+			</div>
+			Software that was intended to ease the creation of biomedical 3d printing from scans, taken as a contract under a partnership since dissolved. 
+			<br><br>
+			Project role: Software developer
+			<br>
 			<ul>
-				<li><div class = 'divlist1'>
-				<h2>Design</h2>
-				<p>The best possible software outcomes,start with solid design practices, this helps avoids mistakes and  hone in on the true needs of the end users.</p>
-				</div></li>
-				<li><div class = 'divlist1'>
-				<h2>Implementation</h2>
-				<p>During implementation a constant reiterive process is needed to both keep inline with the design requirements but also with each pass to improve and innovate.</p>
-				</div></li>
-				<li><div class = 'divlist1'>
-				<h2>Matinence</h2>
-				<p>Once a project has been constructed it still requires care, to deal with both changing requirements and changes to software infrastructure.</p>
-				</div></li>
-			</ul>
+			  <li>C#</li>
+			  <li>Visual Studio</li>
+			  <li>worked on algorithms and UI</li>
+			</ul>  
+			</p>
 			</div>
-			<div class='sub_tab' id='What_Info3'>
+
+			<!-- 3rd -->
+						<div class="Short_Descritption">
+			<div style="height:80px; display:inline-block;">
+				</div>
+				<div style ="style= height:100%; display: inline-block;">
+				<h1>Tug of Warlocks</h1>
 			</div>
-		</div>
+			<div style="height:100%; display:block;text-align: left;">
+			<p>
+			</div>
+			<a href ="https://globalgamejam.org/2016/games/tug-warlocks">Tug of Warlocks</a> Global Game Jam 2016, Multiplayer game where two teams battle to complete rituals to defeat the other side.
+			<br><br>
+			Project role: Designer/Programmer
+			<br>
+			<ul>
+			  <li>Unity</li>
+			  <li>C#</li>
+			  <li>Completed with a team in 48hs</li>
+			</ul>  
+			</p>
+			
+			
+				
+			</div>
+			<div class="Short_Descritption">
+			<div style="height:80px; display:inline-block;">
+				</div>
+				<div style ="style= height:100%; display: inline-block;">
+				<h1>Apex Genetics(2014)</h1>
+			</div>
+			<div style="height:100%; display:block;text-align: left;">
+			<p>
+			</div>
+			<a href ="https://www.indiedb.com/games/apex-genetics/news/apex-genetics-release">Apex Genetics</a> My final year university project, Stealth game set on an alien moon which has been used as a lab to experiment on genetics, the player is a member of such a species that has been attacked, this great stress has activated the latent ability to absorb genetic traits. Using this new power the player must venture into the heart of the enemies lair and exact revenge.
+			<br><br>
+			Project role: Lead Designer/Coder/Producer
+			<br>
+			<ul>
+			  <li>Unity </li>
+			  <li>C#</li>
+			  <li> Stealth Gameplay </li>
+			  <li> Scripted Object interactions and systems, and built the majority of the levels</li>
+			</ul>  
+			<div class="videoWrapper">
+      <!-- Copy & Pasted from YouTube -->
+      <iframe width="560" height="349" src="https://www.youtube.com/embed/X5NGy9EzyNg" frameborder="0" allowfullscreen=""></iframe>
+    </div>
+			</p>
+			
+			
+				<div class="row">
+					  <div class="column">
+						<img src="Ambush.gif" alt="Snow" style="width:100%">
+					  </div>
+					  <div class="column">
+						<img src="Being-Heard.gif" alt="Forest" style="width:100%">
+					  </div>
+					  <div class="column">
+						<img src="Evidence-System-2.gif" alt="Mountains" style="width:100%">
+					  </div>	
+				</div>
+			</div>
+			<div class="Short_Descritption">
+			<div style="height:80px; display:inline-block;">
+				</div>
+				<div style ="style= height:100%; display: inline-block;">
+				<h1>Game AI project (2014)</h1>
+			</div>
+			<div style="height:100%; display:block;text-align: left;">
+			<p>
+			</div>
+			Project for uni assignment to demon strait boid logic using a predator prey relationship.
+			<br><br>
+			Project role:  Programmer
+			<br>
+			<ul>
+			  <li>Unity</li>
+			  <li>C#</li>
+			</ul>  
+			</p>
+			
+			
+				
+			</div>
 	</div>
-</div>
-<div class='Footer-Content'> </div>
-  
+	</div>
+	<div class='Footer-Content'> 
+	</div>
   </body>
 </html>

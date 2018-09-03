@@ -159,6 +159,13 @@ border-radius: 10px;
 	padding-top: 25px;
 	height: 0;
 }
+.videoWrapper video{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 .videoWrapper iframe {
 	position: absolute;
 	top: 0;
@@ -189,7 +196,7 @@ border-radius: 10px;
 .Short_Descritption{
 	min-height:160px;
 	margin:1%;
-	padding:5% 15% 5% 15%; 
+	padding:2.5% 12.5% 2.5% 12.5%; 
 	background-color: #f0f6ff;
 	-webkit-box-shadow: 0px 0px 1px 1px rgba(209,209,209,1);
 	-moz-box-shadow: 0px 0px 1px 1px rgba(209,209,209,1);
@@ -197,11 +204,11 @@ border-radius: 10px;
 	z-index: 2;
 }
 .Short_Descritption ul li{
-	list-style-type:circle;
+	list-style-type:square;
 }
 .Short_Descritption h1{
 	color:black;
-	font-size: 60px;
+	font-size: 2.5em;
 }
 
 .Body-Content-Tabviewer{

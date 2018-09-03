@@ -2,17 +2,17 @@
 
 <div class ='Personal-Panel'>
 	<img src ="avatar.jpg" alt ="pic" style="height:100%;">
-	<div>
+	<div style ="display: inline-block;">
 		<h1>Thomas Fleming</h1>
 		<h2>Game Developer</h2>
 	</div>
 </div>
 	<div class='Main-header-nav'>
 		<ul>
-			<li><a href='index.html'> About</a></li>
-			<li><a href='Projects.html'>Projects</a></li>
-			<li><a href='Portfolio_Home.html'>Code</a></li>
-			<li><a href='About.html'>Education</a></li>
+			<li><a href='index.html'> Projects</a></li>
+			<li><a href='https://github.com/noodlebox37517/Code'>Code</a></li>
+			<li><a href='educ.html'>Education</a></li>
+<!-- 			<li><a href='About.html'>About</a></li> -->
 		</ul>
 	</div>
 	

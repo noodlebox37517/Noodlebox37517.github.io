@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Noodlebox37517.GitHub.io by noodlebox37517</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+	
+    <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+		<script> 
+		    $(function(){
+		      $(".Main-Header-placer").load("Header.html"); 
+		    });
+			
+		</script>
+		<!-- scripts to show and hide divs through ids -->
+		<script> 
+		</script>
+	<style>
+	</style>
+  </head>
+  
+  <body>
+	<div class='Main-Header-placer'></div>
+	<div class = "Body-Content">
+		<div class="Short_Descritption">
+				<div style ="style = height:100%; display: inline-block;">
+				<h1>Graduate Certificate in Business(Management) 2017</h1>
+				</div>
+				<p>QUT,24 February 2016 – 24 July 2016, 
+				</p>
+				<p>In this course I studied multiple aspects of management including management theory, Organisational behaviour and Business law. I believe this has given me a strong basis for my work ethic and ability to work and understand others. 
+				</p>
+
+			</div>
+					<div class="Short_Descritption">
+			<div style="height:80px; display:inline-block;">
+				
+				</div>
+				<div style ="style= height:100%; display: inline-block;">
+				<h1>Bachelor in Games & Interactive Entertainment 2015</h1>
+				</div>
+			<div style="height:100%; display:block;text-align: left;">
+			<p>QUT, 16 February 2012 – 24 July 2015,</p>
+			<p>
+			of the course of 4 years I studied software development, design,programming and marketing.I learnt to code using C#,C++,python and mysql. I finished this degree with a yearlong game project in a team of 6.
+			</p></div>
+			</div>
+					<div class="Short_Descritption">
+
+				<div style ="style= height:100%; display: inline-block;">
+				<h1>Certificate 3 in Information Technology</h1>
+				</div>
+			<div style="height:100%; display:block;text-align: left;">
+			<p>Tafe Queensland, 28 February 2010 – 24 October 2011, Cert 3 in IT ICA30105</p>
+<p>In this course I covered a wide array of proficiencies including , user documentation, installing and optimising system software, care for computer hardware and providing advice to clients.</p>
+			</div>
+			</div>
+		
+	</div>
+	<div class='Footer-Content'> 
+	</div>
+  </body>
+</html>

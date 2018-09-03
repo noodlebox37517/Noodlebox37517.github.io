@@ -102,6 +102,17 @@
 			  <li>Completed with a team in 48hs</li>
 			</ul>  
 			</p>
+						<div class="row">
+					  <div class="column">
+						<img src="warlocksplash_0.png" alt="Snow" style="width:100%">
+					  </div>
+					  <div class="column">
+						<img src="capture1_16.png" alt="Forest" style="width:100%">
+					  </div>
+					  <div class="column">
+						<img src="capture2_23.png" alt="Mountains" style="width:100%">
+					  </div>	
+			</div>
 			
 			
 				
@@ -162,6 +173,11 @@
 			  <li>C#</li>
 			</ul>  
 			</p>
+			<div class="videoWrapper">
+			<video  width="560" height="349" controls>
+			<source src ="game_ai.mp4" type ="video/mp4">
+			</video>
+			</div>
 			
 			
 				
